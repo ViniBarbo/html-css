@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+</head>
+<style>
+    body {
+        font-family: 'Work Sans' ,Arial, Helvetica, sans-serif; 
+        /*
+        Medidas Absolutas
+        cm, mm, px, pt, pc
+        
+        Medidas Relativas
+        em, ex, rem, vw, vh, %
+
+        Obs: para font-size usa-se px e em ( para se adáptar em diferentes telas,é recomendável pela WTC)
+        16px é tamanho padrão de uma fonte,
+        e 16px geralmente é = 1em
+        */
+    }
+        h1 {
+        /* 
+        font-family: 'Work-Sans', sans-serif;
+        font-weight: bolder;
+        font-size: 3em; 
+        font-style: italic; 
+        no lugar dessas 4 fontes para resumir e facilitar  usa-se 'shorthand font'(eu consigo dizer várias coisas em uma só linha) porém tem que ser nessa ordem: - font-style -> font-weight -> font-size -> font-family 
+        */  
+        font: italic bolder 3em 'Work Sans', sans-serif;   
+    }   
+        h2 {
+            font: bolder 2em 'Work Sans', sans-serif;
+        }
+</style>
+<body>
+   <h1>Trabalhando com Fontes</h1> 
+   <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam corrupti porro expedita alias natus explicabo iusto illo tempora sapiente, deleniti dolore temporibus dolor quae, necessitatibus assumenda sit totam, veritatis modi!</p>
+   <h2>Subtítulo do exercício</h2>
+   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta accusamus corporis, explicabo cupiditate laudantium temporibus adipisci deleniti saepe culpa velit ad repellendus vero optio dignissimos magni perspiciatis totam, rem magnam.</p>
+</body>
+</html>
